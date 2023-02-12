@@ -1,0 +1,42 @@
+body{
+    background-color:aqua;
+    
+}
+
+
+/* @media  screen and(min-width:1440px) {
+        body{
+          
+            display: flex;
+            display: none;
+            background-color: green;
+        }
+} */
+h1{
+    text-align: center;
+}
+@media  screen and (max-width:1440px) {
+    body{
+      background-color:green;
+      
+        
+    }
+}
+@media  screen and (max-width:1024px) {
+    body{
+        background-color: rgb(238, 152, 2);
+        
+    }
+}
+@media  screen and (max-width:768px) {
+    body{
+        background-color: rgb(9, 235, 220);
+       
+    }
+}
+@media  screen and(min-width:428px) {
+    body{
+      
+        background-color: #f02906;
+    }
+}
