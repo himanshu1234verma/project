@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(1, 1, 19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+    
+
+.main-section div{
+    display: flex;
+ 
+}
+.main-section p{
+    color: white;
+    margin-top: 100px;
+    
+}
+.wave{
+    margin-top: 100px;
+}
+.main-section p span{
+    color: yellow;
+    font-size: 10px;
+}
+
+.main-section p strong{
+    font-size: 20px;
+    padding-right: 5px;
+}
+.pcimage{
+    margin-top: 60px;
+}
+
+.main-section h4{
+    color: white;
+  
+}
+.section2 h4{
+    color: white;
+    text-align: center;
+    text-decoration: underline 3px solid  rgb(25, 25, 249);
+}
+.section2 img{
+    height:130px;
+    width: 130px;
+    
+}
+
+@media screen and (max-width:768px){
+
+    body{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        margin-left: 2px;
+    }
+    .main-section div{
+        display: flex;
+        flex-direction: column;
+    }
+    .wave{
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+    .pcimage{
+        height: 50px;
+        width: 50px;
+        margin-top: 0px;
+        
+       
+    }
+    .main-section p{
+        margin-top: 10px;
+    }
+    .section2{
+        display: flex;
+        float: column;
+        margin-top: 140px;
+      
+    }
+    .main-section p span{
+        color: yellow;
+        font-size: 10px;
+        margin-left: 50px;
+    }
+    .section2 h4{
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        margin-top: 2px;
+        margin-left: 70px;
+        
+    }
+    main div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-right: 50px;
+    }
+    .section2 div img{
+        height: 80px;
+        width: 80px;
+        display: flex;
+        margin-top:0px;
+        margin-right: 50px;
+
+    }
+    #downlink{
+        text-align: center;
+        display: flex;
+        margin-bottom: 0px;
+        margin-right: px;
+    }
+}
+
+
+
+
